@@ -1,15 +1,18 @@
 import LogoPorto from '../../assets/porto-icone-header.svg'
 import IconeMenu from '../../assets/iconemenu.svg'
 import {StyledHeader} from './Header.style'
+import { StyledDivHeader } from './Header.style'
+import { StyledInputHeader } from './Header.style'
+
 
 export const Header = () => {
     return (
         <StyledHeader>
-            <div className='header-items'>
+            <StyledDivHeader>
                 <img src={LogoPorto} alt="Logo da Porto Seguro" />
-                <input type="search" name="input-header" id="input-header" placeholder='Digite aqui o que deseja' className=''/>
-                <img src={IconeMenu} alt="Menu" />
-            </div>
+                <StyledInputHeader type="search" name="input-header" id="input-header" placeholder='Digite aqui o que procura'/>
+                <img style={{marginRight: 100}} src={IconeMenu} alt="Menu" />
+            </StyledDivHeader>
         </StyledHeader>
     )
 }
