@@ -24,4 +24,9 @@ export const StyledInputHeader = styled.input`
     border: 1px solid white;
     text-align: center;
     
+${(props) =>
+props.RemoverInput &&`
+    display: none;
+`
+}
 `
