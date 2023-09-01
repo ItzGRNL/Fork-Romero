@@ -7,7 +7,7 @@ export const paragrafo = "Nesta área, pensamos em ser uma parte mais abrangente
 
 export const Ajuda = () => {
     return ( <>
-        <Header lupa/>
+        <Header RemoverInput/>
         <BodySolucoes titulo = {"Ajuda"} img = {imgAjuda} texto ={paragrafo} descricao="Imagem ilustrando uma ajuda"/>
         <Footer />
         </>)
