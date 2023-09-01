@@ -5,12 +5,16 @@ import { StyledDivHeader } from './Header.style'
 import { StyledInputHeader } from './Header.style'
 
 
-export const Header = () => {
+interface InputProps{
+    RemoverInput?: boolean
+}
+
+export const Header = ({RemoverInput}: InputProps) => {
     return (
         <StyledHeader>
             <StyledDivHeader>
                 <img src={LogoPorto} alt="Logo da Porto Seguro" />
-                <StyledInputHeader type="search" name="input-header" id="input-header" placeholder='Digite aqui o que procura'/>
+                <StyledInputHeader type="search" name="input-header" id="input-header" placeholder='Digite aqui o que procura' RemoverInput = {RemoverInput}/>
                 <img style={{marginRight: 100}} src={IconeMenu} alt="Menu" />
             </StyledDivHeader>
         </StyledHeader>
