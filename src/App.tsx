@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-    <Ajuda lupa = {false}/>
+    <Ajuda />
     {/* <Header />
     <BodySolucoes />
     <Footer /> */}
