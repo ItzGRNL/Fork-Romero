@@ -24,5 +24,7 @@ export const StyledPBodySolucoes = styled.p`
     font-family: 'Open Sans';
     font-size: 20px;
     font-weight: 300;
-    padding-top: 25px;
+    padding-top: 35px;
+    padding-bottom: 55px;
+    width: 90%;
 `
