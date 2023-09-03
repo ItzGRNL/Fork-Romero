@@ -3,7 +3,7 @@ import Lupa from "../../assets/LupaDePesquisa.svg"
 
 export const StyledHeader = styled.header`
     background-color: #E2E2FF;
-    width: 100vw;
+    width: 100%;
     padding: 30px 0;
 
 `
