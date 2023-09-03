@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledBodySolucoes = styled.body`
-    width: 100vw;
+    width: 100%;
 `
 
 export const StyledH1BodySolucoes = styled.h1`
@@ -12,7 +12,7 @@ export const StyledH1BodySolucoes = styled.h1`
 `
 
 export const StyledImgBodySolucoes = styled.img`
-    max-width: 100%
+    max-width: 100%;
 `
 export const StyledDivBodySolucoes = styled.div`
     display: grid;
