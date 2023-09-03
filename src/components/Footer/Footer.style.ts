@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const StyledFooter = styled.footer`
     background-color: #000000;
-    width: 100vw;
+    width: 100%;
     padding-bottom: 26px;
 `
 export const StyledParagraphFooter = styled.p`
@@ -12,7 +12,7 @@ export const StyledParagraphFooter = styled.p`
     font-weight: 300;
     padding: 10px 40px;
     padding-bottom: 15px;
-    width: 550px;
+    width: 90%;
     
 `
 
