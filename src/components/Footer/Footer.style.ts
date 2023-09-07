@@ -3,6 +3,7 @@ import styled from "styled-components"
 export const StyledFooter = styled.footer`
     background-color: #000000;
     width: 100%;
+    height: 18vh;
     padding-bottom: 26px;
 `
 export const StyledParagraphFooter = styled.p`
