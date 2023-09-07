@@ -6,7 +6,6 @@ import {Ajuda} from './pages/Ajuda/Ajuda'
 import { Organograma } from './pages/Organograma/Organograma'
 import { SolucaoPorto } from './pages/SolucaoPorto/SolucaoPorto'
 import { CentralSolucoes } from './pages/CentralSolucoes/CentralSolucoes'
-import './App.css'
 
 
 function App() {
