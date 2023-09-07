@@ -12,8 +12,8 @@ export const BodyCentralSolucoes = () => {
 
             <StyledDivCentralSolucoes>
                 <StyledTagACentralSolucoes href="">Acionar Sinistro</StyledTagACentralSolucoes>
-                <StyledTagACentralSolucoes href="">Ajuda</StyledTagACentralSolucoes>
                 <StyledTagACentralSolucoes href="">Revisões Breves</StyledTagACentralSolucoes>
+                <StyledTagACentralSolucoes href="">Ajuda</StyledTagACentralSolucoes>
                 <StyledTagACentralSolucoes href="">Reportar Problema</StyledTagACentralSolucoes>
             </StyledDivCentralSolucoes>
         </StyledBodyCentralSolucoes>
