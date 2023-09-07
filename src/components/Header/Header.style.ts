@@ -4,6 +4,7 @@ import Lupa from "../../assets/LupaDePesquisa.svg"
 export const StyledHeader = styled.header`
     background-color: #E2E2FF;
     width: 100%;
+    height: 10vh;
     padding: 30px 0;
 
 `
