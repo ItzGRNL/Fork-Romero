@@ -9,6 +9,14 @@ export const StyledFooter = styled.footer`
     padding-bottom: 0;
 }
 
+@media (min-width: 320px) {
+    height: 16vh;
+}
+
+@media (min-width: 768px) {
+    height: 19vh;
+}
+
 @media (min-width: 1440px) {
     height: 20vh;
 }
