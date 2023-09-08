@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-    <CentralSolucoes />
+    <Ajuda />
     {/* <Header />
     <BodySolucoes />
     <Footer /> */}
