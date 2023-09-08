@@ -31,3 +31,7 @@ props.RemoverInput &&`
 `
 }
 `
+
+export const StyledMenu = styled.img`
+    margin-right: 7vw;
+`
