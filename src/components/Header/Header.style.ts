@@ -7,6 +7,9 @@ export const StyledHeader = styled.header`
     height: 10vh;
     padding: 30px 0;
 
+@media (min-width: 1024px) {
+    height: 8vh;
+}    
 `
 
 export const StyledDivHeader = styled.div`
@@ -30,8 +33,37 @@ props.RemoverInput &&`
     display: none;
 `
 }
+
+@media (min-width: 320px) {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    display: block;
+}
+
+@media (min-width: 1024px) {
+    font-size: 18px;
+}
 `
 
 export const StyledMenu = styled.img`
     margin-right: 7vw;
+
+@media (min-width: 320px) {
+    width: 35px;
+}
+
+@media (min-width: 1024px) {
+    width: 45px;
+}
+`
+
+export const StyledImgPorto = styled.img`
+    width: 100px;
+    margin-left: 3vw;
+
+@media (min-width: 1024px) {
+    width: 150px;
+}
 `
