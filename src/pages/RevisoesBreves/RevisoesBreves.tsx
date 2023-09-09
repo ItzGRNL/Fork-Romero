@@ -1,5 +1,5 @@
 import { Header } from "../../components/Header/Header";
-import { BodySolucoes } from "../../components/BodySolucoes/BodySolucoes";
+import { BodyRevisoes } from "../../components/BodyRevisoes/BodyRevisoes";
 import { Footer } from "../../components/Footer/Footer";
 import imgRevisoesBreves from "../../assets/imgRevisoesBreves.svg"
 
@@ -9,7 +9,7 @@ export const RevisoesBreves = () => {
     return(
         <>
         <Header RemoverInput />
-        <BodySolucoes titulo= {"Revisões Breves"} img= {imgRevisoesBreves} texto= {paragrafoRevisoes} descricao="Imagem de alguém fazendo revisão no carro" />
+        <BodyRevisoes titulo= {"Revisões Breves"} img= {imgRevisoesBreves} texto= {paragrafoRevisoes} descricao="Imagem de alguém fazendo revisão no carro"/>
         <Footer />
         </>
     )
