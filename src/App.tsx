@@ -16,7 +16,7 @@ function App() {
 
   return (
     <>
-    <RevisoesBreves />
+    <ReportarProblema />
     {/* <Header />
     <BodySolucoes />
     <Footer /> */}
