@@ -6,6 +6,9 @@ import {Ajuda} from './pages/Ajuda/Ajuda'
 import { Organograma } from './pages/Organograma/Organograma'
 import { SolucaoPorto } from './pages/SolucaoPorto/SolucaoPorto'
 import { CentralSolucoes } from './pages/CentralSolucoes/CentralSolucoes'
+import { ReportarProblema } from './pages/ReportarProblema/ReportarProblema'
+import { RevisoesBreves } from './pages/RevisoesBreves/RevisoesBreves'
+import { AcionamentoSinistro } from './pages/AcionamentoSinistro/AcionamentoSinistro'
 
 
 function App() {
@@ -13,7 +16,7 @@ function App() {
 
   return (
     <>
-    <Ajuda />
+    <RevisoesBreves />
     {/* <Header />
     <BodySolucoes />
     <Footer /> */}
