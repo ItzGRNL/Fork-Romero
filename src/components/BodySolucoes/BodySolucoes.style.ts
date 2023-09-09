@@ -54,7 +54,7 @@ export const StyledPBodySolucoes = styled.p`
 
 @media (min-width: 320px) {
     font-size: 16px;
-    padding-bottom: 7.5vh;
+    padding-bottom: 7vh;
 }
 
 @media (min-width: 375px) {

@@ -8,7 +8,7 @@ interface BodySolucoesprops{
     titulo: string,
     img: string,
     texto: string,
-    descricao?: string
+    descricao?: string,
 }
 
 export const BodySolucoes = ({titulo, img, texto, descricao}: BodySolucoesprops) => {
@@ -17,7 +17,7 @@ export const BodySolucoes = ({titulo, img, texto, descricao}: BodySolucoesprops)
         <StyledBodySolucoes>
 
             <StyledDivBodySolucoes>
-                <StyledH1BodySolucoes>{titulo}</StyledH1BodySolucoes>
+                <StyledH1BodySolucoes> {titulo} </StyledH1BodySolucoes>
 
                 <StyledImgBodySolucoes  src={img} alt={descricao} />
 
