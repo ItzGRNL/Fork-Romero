@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { Header } from './components/Header/Header'
-import Dropdown from './Dropdown';
 import { Footer } from './components/Footer/Footer'
 import { BodySolucoes } from './components/BodySolucoes/BodySolucoes'
 import {Ajuda} from './pages/Ajuda/Ajuda'

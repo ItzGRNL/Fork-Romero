@@ -1,5 +1,5 @@
 import LogoPorto from '../../assets/porto-icone-header.svg'
-import Dropdown from '../MenuNav/DropDown'
+import Dropdown from '../../pages/MenuNav/DropDown'
 import { StyledHeader } from './Header.style'
 import { StyledDivHeader } from './Header.style'
 import { StyledInputHeader } from './Header.style'
