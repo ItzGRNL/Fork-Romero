@@ -16,10 +16,7 @@ function App() {
 
   return (
     <>
-    <ReportarProblema />
-    {/* <Header />
-    <BodySolucoes />
-    <Footer /> */}
+    <SolucaoPorto />
     </>
   )
 }
