@@ -10,10 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@mui/icons-material": "^5.14.8",
+    "@mui/material": "^5.14.8",
     "@types/styled-components": "^5.1.26",
     "components": "^0.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
     "styled": "^1.0.0",
     "styled-components": "^6.0.7"
   },
