@@ -1,5 +1,4 @@
 import LogoPorto from '../../assets/porto-icone-header.svg'
-import IconeMenu from '../../assets/iconemenu.svg'
 import Dropdown from '../MenuNav/DropDown'
 import { StyledHeader } from './Header.style'
 import { StyledDivHeader } from './Header.style'
@@ -19,7 +18,7 @@ export const Header = ({RemoverInput}: InputProps) => {
             <StyledDivHeader>
                 <StyledImgPorto src={LogoPorto} alt="Logo da Porto Seguro" />
                 <StyledInputHeader type="search" name="input-header" id="input-header" placeholder='Digite aqui o que procura' RemoverInput = {RemoverInput}/>
-                <Dropdown/>
+                <Dropdown />
             </StyledDivHeader>
         </StyledHeader>
     )
