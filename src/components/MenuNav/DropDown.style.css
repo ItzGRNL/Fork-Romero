@@ -2,6 +2,8 @@
   .dropdown {
     position: relative;
     margin-right: 80px;
+  
+    float: right;
   }
   
   .dropdown-img{
