@@ -53,19 +53,6 @@ props.RemoverInput &&`
 }
 `
 
-export const StyledMenu = styled.img`
-    margin-right: 7vw;
-    background-color: #E2E2FF;
-
-@media (min-width: 320px) {
-    width: 35px;
-}
-
-@media (min-width: 1024px) {
-    width: 45px;
-}
-`
-
 export const StyledImgPorto = styled.img`
     width: 100px;
     margin-left: 3vw;

@@ -18,16 +18,12 @@ const Dropdown = () => {
       </button>
       {isOpen && (
         <ul className="dropdown-menu">
-          <li>
-            <Link to="/">Página Inicial</Link>
-          </li>
-          <li>
-            <Link to="/z">Página 1</Link>
-          </li>
-          <li>
-            <Link to="/pagina2">Página 2</Link>
-          </li>
-          {/* Adicione mais links conforme necessário */}
+            <li><Link to="../../pages/Ajuda">Ajuda</Link></li>
+            <li><Link to="../../pages/Organograma">Organograma</Link></li>
+            <li><Link to="../../pages/CentralSolucoes">Central Solucoes</Link></li>
+            <li><Link to="../../pages/ReportarProblema">Reportar Problema</Link></li>
+            <li><Link to="../../pages/RevisoesBreves">Revisoes Breves</Link></li>
+            <li><Link to="../../AcionamentoSinistro">Acionamento Sinistro</Link></li>
         </ul>
       )}
     </div>

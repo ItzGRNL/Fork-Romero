@@ -1,11 +1,9 @@
-import { useState } from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import LogoPorto from '../../assets/porto-icone-header.svg'
 import Dropdown from '../../components/MenuNav/DropDown'
 import { StyledHeader } from './Header.style'
 import { StyledDivHeader } from './Header.style'
 import { StyledInputHeader } from './Header.style'
-import { StyledMenu } from './Header.style'
 import { StyledImgPorto } from './Header.style'
 
 interface InputProps{
@@ -15,12 +13,17 @@ interface InputProps{
 export const Header = ({RemoverInput}: InputProps) => {
 
     return (
-        <StyledHeader>
+        <header>
+            <StyledHeader>
             <StyledDivHeader>
                 <StyledImgPorto src={LogoPorto} alt="Logo da Porto Seguro" />
                 <StyledInputHeader type="search" name="input-header" id="input-header" placeholder='Digite aqui o que procura' RemoverInput = {RemoverInput}/>
-                <Dropdown />
+                <Router>
+                    <Dropdown />
+                </Router>
             </StyledDivHeader>
-        </StyledHeader>
+            </StyledHeader>
+        </header>
+        
     )
 }
