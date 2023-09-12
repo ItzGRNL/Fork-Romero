@@ -1,18 +1,19 @@
+import { useState } from 'react'
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import LogoPorto from '../../assets/porto-icone-header.svg'
-import Dropdown from '../../pages/MenuNav/DropDown'
+import Dropdown from '../../components/MenuNav/DropDown'
 import { StyledHeader } from './Header.style'
 import { StyledDivHeader } from './Header.style'
 import { StyledInputHeader } from './Header.style'
 import { StyledMenu } from './Header.style'
 import { StyledImgPorto } from './Header.style'
 
-
-
 interface InputProps{
     RemoverInput?: boolean
 }
 
 export const Header = ({RemoverInput}: InputProps) => {
+
     return (
         <StyledHeader>
             <StyledDivHeader>

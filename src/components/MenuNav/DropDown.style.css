@@ -1,0 +1,13 @@
+  .dropdown {
+    position: relative;
+    margin-right: 80px;
+  }
+  
+  .dropdown-img{
+    background-color: #E2E2FF;
+    cursor: pointer;
+    border: none;
+  }
+  .dropdown-menu{
+
+  }
