@@ -27,6 +27,11 @@
   }
 
   @media (min-width: 320px) {
+    .dropdown-img {
+      margin-left: 0;
+      margin-right: 30px;
+      width: 30px;
+    }
     .dropdown {
       margin-right: 0;
     }
