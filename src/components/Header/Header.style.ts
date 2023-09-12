@@ -19,7 +19,6 @@ export const StyledHeader = styled.header`
 
 export const StyledDivHeader = styled.div`
     display: flex; 
-    justify-content: space-between;
     align-items: center;
 
     @media (min-width: 768px) {
