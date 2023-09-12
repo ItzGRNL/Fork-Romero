@@ -14,7 +14,7 @@ export const StyledFooter = styled.footer`
 }
 
 @media (min-width: 768px) {
-    height: 19vh;
+    height: 26vh;
 }
 
 @media (min-width: 1440px) {
