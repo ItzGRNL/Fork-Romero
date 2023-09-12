@@ -15,12 +15,12 @@ export const Header = ({RemoverInput}: InputProps) => {
     return (
         <header>
             <StyledHeader>
+            <Router>
+                    <Dropdown />
+                </Router>
             <StyledDivHeader>
                 <StyledImgPorto src={LogoPorto} alt="Logo da Porto Seguro" />
                 <StyledInputHeader type="search" name="input-header" id="input-header" placeholder='Digite aqui o que procura' RemoverInput = {RemoverInput}/>
-                <Router>
-                    <Dropdown />
-                </Router>
             </StyledDivHeader>
             </StyledHeader>
         </header>
