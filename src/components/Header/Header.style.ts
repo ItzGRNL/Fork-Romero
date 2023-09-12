@@ -20,6 +20,7 @@ export const StyledDivHeader = styled.div`
     @media (min-width: 768px) {
         padding-top: 7px;
     }
+
 ` 
 
 export const StyledInputHeader = styled.input`
@@ -46,6 +47,7 @@ props.RemoverInput &&`
 @media (min-width: 768px) {
     display: block;
     height: 40px;
+    margin-left: 70px;
 }
 
 @media (min-width: 1024px) {
