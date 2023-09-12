@@ -7,6 +7,11 @@ export const StyledHeader = styled.header`
     height: 10vh;
     padding: 15px 0;
 
+@media (min-width: 768px) {
+        height: 12vh;
+}
+
+
 @media (min-width: 1024px) {
     height: 8vh;
 }    
@@ -18,7 +23,7 @@ export const StyledDivHeader = styled.div`
     align-items: center;
 
     @media (min-width: 768px) {
-        padding-top: 7px;
+        margin-bottom: 30px;
     }
 
 ` 
