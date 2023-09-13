@@ -17,7 +17,6 @@ const Dropdown = () => {
         <img src={IconeMenu} alt="IconeMenu"/>
       </button>
       {isOpen && (
-        <div className='menu'>
            <ul className="dropdown-menu">
             <li><Link to="../../pages/Ajuda">Ajuda</Link></li>
             <li><Link to="../../pages/Organograma">Organograma</Link></li>
@@ -26,7 +25,6 @@ const Dropdown = () => {
             <li><Link to="../../pages/RevisoesBreves">Revisoes Breves</Link></li>
             <li><Link to="../../AcionamentoSinistro">Acionamento Sinistro</Link></li>
           </ul>
-        </div>
        
       )}
     </div>
