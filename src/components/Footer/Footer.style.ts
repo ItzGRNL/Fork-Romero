@@ -5,9 +5,6 @@ export const StyledFooter = styled.footer`
     width: 100%;
     height: 18vh;
     padding-bottom: 26px;
-@media (min-width: 320px) {
-    padding-bottom: 0;
-}
 
 @media (min-width: 320px) {
     height: 23vh;
@@ -18,7 +15,7 @@ export const StyledFooter = styled.footer`
 }
 
 @media (min-width: 1024px) {
-    height: 25vh;
+    height: 28vh;
 }
 @media (min-width: 1440px) {
     height: 21vh;
