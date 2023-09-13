@@ -13,7 +13,7 @@ export const StyledHeader = styled.header`
 
 
 @media (min-width: 1024px) {
-    height: 8vh;
+    height: 10vh;
 }    
 `
 
