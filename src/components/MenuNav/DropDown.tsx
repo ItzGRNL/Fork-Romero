@@ -17,14 +17,17 @@ const Dropdown = () => {
         <img src={IconeMenu} alt="IconeMenu"/>
       </button>
       {isOpen && (
-        <ul className="dropdown-menu">
+        <div className='menu'>
+           <ul className="dropdown-menu">
             <li><Link to="../../pages/Ajuda">Ajuda</Link></li>
             <li><Link to="../../pages/Organograma">Organograma</Link></li>
             <li><Link to="../../pages/CentralSolucoes">Central Solucoes</Link></li>
             <li><Link to="../../pages/ReportarProblema">Reportar Problema</Link></li>
             <li><Link to="../../pages/RevisoesBreves">Revisoes Breves</Link></li>
             <li><Link to="../../AcionamentoSinistro">Acionamento Sinistro</Link></li>
-        </ul>
+          </ul>
+        </div>
+       
       )}
     </div>
   );

@@ -1,20 +1,36 @@
 
   .dropdown {
     position: relative;
-    margin-right: 80px;
   
-    float: right;
+    margin-right: 60px;
   }
   
+  .menu{
+    
+    float: left;
+  }
+
+
   .dropdown-img{
     background-color: #E2E2FF;
     cursor: pointer;
     border: none;
-    margin-left: 130px;
+    margin-right: 130px;
+    position: relative;
+
+
   }
+
+  .dropdown-menu ul{
+    margin-right: 50px;
+
+  }
+
   .dropdown-menu{
     list-style: none;
     background-color: #E2E2FF;
+    
+   
   }
 
   .dropdown-menu li{

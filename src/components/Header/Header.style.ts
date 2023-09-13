@@ -20,6 +20,7 @@ export const StyledHeader = styled.header`
 export const StyledDivHeader = styled.div`
     display: flex; 
     align-items: center;
+    justify-content: space-between;
 
     @media (min-width: 768px) {
         margin-bottom: 30px;
