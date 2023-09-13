@@ -4,11 +4,7 @@
   
     margin-right: 60px;
   }
-  
-  .menu{
-    
-    float: left;
-  }
+
 
 
   .dropdown-img{
@@ -60,5 +56,19 @@
   }
   
   @media (min-width: 1024px) {
+    .dropdown {
+      position: relative;
     
+      margin-right: 60px;
+    }
+  
+  
+    .dropdown-img{
+      background-color: #E2E2FF;
+      cursor: pointer;
+      border: none;
+      position: relative;
+  
+  
+    }
   }
